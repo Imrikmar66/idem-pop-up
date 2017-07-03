@@ -11,7 +11,7 @@
 /** VERSION SYSTEM **/
 require 'plugin-update-checker/plugin-update-checker.php';
 $MyUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://github.com/Imrikmar66/idem-pop-up/blob/master/version.json',
+    'https://raw.githubusercontent.com/Imrikmar66/idem-pop-up/master/version.json',
     __FILE__,
     'idem_pop_up'
 );
