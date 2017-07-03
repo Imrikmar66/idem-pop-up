@@ -1,0 +1,15 @@
+#idem_pop_up_admin_check {
+    margin-right: 5px;
+}
+.p_suggestion {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #00BCD4;
+    margin: 10px 0px;
+    color: #fff;
+    font-size: 15px;
+}
+.p_suggestion a {
+    color: #fff;
+    font-style: italic;
+}

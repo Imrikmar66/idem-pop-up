@@ -1,0 +1,70 @@
+#idem_pop_up_overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    display: none;
+}
+#idem_pop_up {
+    width: 650px;
+    height: 400px;
+    z-index: 10001;
+    position: fixed;
+    top: calc(50vh - 200px);
+    left: calc(50vw - 325px);
+    background-color: #fff;
+    display: none;
+    overflow-y: auto;
+    border-radius: 3px;
+}
+
+/* Big */
+#idem_pop_up.big {
+    width: 1000px;
+    height: 615px;
+    top: calc(50vh - 307px);
+    left: calc(50vw - 500px);
+}
+#idem_pop_up_close {
+    background-image: url('cross-flat.png');
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: calc(50vh - 225px);
+    left: calc(50vw + 325px);
+    z-index: 10001;
+    cursor: pointer;
+}
+.big #idem_pop_up_close {
+    width: 50px;
+    height: 50px;
+    top: calc(50vh - 357px);
+    left: calc(50vw + 500px);
+}
+
+/* Responsive */
+@media screen and (max-width: 720px) {
+
+    #idem_pop_up.responsive {
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    .responsive #idem_pop_up_close {
+        top: 5%;
+        left: 90%;
+        width: 50px;
+        height: 50px;
+    }   
+
+}
