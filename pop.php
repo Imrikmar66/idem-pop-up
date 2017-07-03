@@ -10,12 +10,21 @@
 
 /** VERSION SYSTEM **/
 require 'plugin-update-checker/plugin-update-checker.php';
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://raw.githubusercontent.com/Imrikmar66/idem-pop-up/master/version.json',
-    __FILE__,
-    'idem_pop_up'
-);
-
+try {
+    $MyUpdateChecker = PucFactory::buildUpdateChecker(
+        'https://raw.githubusercontent.com/Imrikmar66/idem-pop-up/master/version.json',
+        __FILE__,
+        'idem_pop_up'
+    );
+    echo "<pre>";
+    var_dump( $MyUpdateChecker );
+    echo "</pre>";
+}
+catch(Exception $e){
+    echo "HERE error";
+    var_dump( $e );
+}
+/*
 if (!defined('IDEM_POP_UP_VERSION'))
     define('IDEM_POP_UP_VERSION', '1.0');
 
@@ -29,7 +38,7 @@ add_action('plugins_loaded', 'idem_pop_up_check_version');
 
 function idem_pop_up_activation(){
     update_option('idem_pop_up_check_version', IDEM_POP_UP_VERSION);
-}
+}*/
 
 /** POP UP POST TYPE **/
 function register_cpt_idem_pop_up() {
