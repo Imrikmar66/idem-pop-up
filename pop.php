@@ -3,27 +3,19 @@
 * Plugin Name: Idem Pop Up
 * Plugin URI: https://github.com/Imrikmar66/idem-pop-up
 * Description: A programmable pop up pluggin
-* Version: 1.0
+* Version: 1.1
 * Author: Pierre MAR
 * Author URI: https://github.com/Imrikmar66
 **/
 
 /** VERSION SYSTEM **/
 require 'plugin-update-checker/plugin-update-checker.php';
-try {
-    $MyUpdateChecker = PucFactory::buildUpdateChecker(
-        'https://raw.githubusercontent.com/Imrikmar66/idem-pop-up/master/version.json',
-        __FILE__,
-        'idem_pop_up'
-    );
-    echo "<pre>";
-    var_dump( $MyUpdateChecker );
-    echo "</pre>";
-}
-catch(Exception $e){
-    echo "HERE error";
-    var_dump( $e );
-}
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://raw.githubusercontent.com/Imrikmar66/idem-pop-up/master/version.json',
+    __FILE__,
+    'idem_pop_up'
+);
+
 /*
 if (!defined('IDEM_POP_UP_VERSION'))
     define('IDEM_POP_UP_VERSION', '1.0');
