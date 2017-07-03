@@ -9,6 +9,13 @@
 **/
 
 /** VERSION SYSTEM **/
+require 'plugin-update-checker/plugin-update-checker.php';
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/Imrikmar66/idem-pop-up/blob/master/version.json',
+    __FILE__,
+    'idem_pop_up'
+);
+
 if (!defined('IDEM_POP_UP_VERSION'))
     define('IDEM_POP_UP_VERSION', '1.0');
 

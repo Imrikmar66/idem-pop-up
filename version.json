@@ -1,0 +1,10 @@
+{
+    "name" : "Idem Pop Up",
+    "slug" : "idem_pop_up",
+    "download_url" : "https://github.com/Imrikmar66/idem-pop-up/archive/master.zip",
+    "version" : "1.0",
+    "author" : "Pierre Mar",
+    "sections" : {
+        "description" : "A programmable pop up pluggin"
+    }
+}
