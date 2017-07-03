@@ -1,11 +1,11 @@
 <?php
 /**
 * Plugin Name: Idem Pop Up
-* Plugin URI: http://www.lidem.eu/
+* Plugin URI: https://github.com/Imrikmar66/idem-pop-up
 * Description: A programmable pop up pluggin
 * Version: 1.0
 * Author: Pierre MAR
-* Author URI: http://www.lidem.eu/
+* Author URI: https://github.com/Imrikmar66
 **/
 
 /** VERSION SYSTEM **/
