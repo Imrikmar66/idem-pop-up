@@ -48,6 +48,11 @@
     left: calc(50vw + 500px);
 }
 
+/* fix vscomposer scrollbar */
+#idem_pop_up .row-bg-wrap .inner-wrap {
+    width: 100%;
+}
+
 /* Responsive */
 @media screen and (max-width: 720px) {
 
