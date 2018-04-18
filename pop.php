@@ -154,7 +154,7 @@ function idem_pop_up_loaded() {
             echo "<div class='p_suggestion sug_1' > Idem-pop-up is usefull with <a href='http://postexpirator.tuxdocs.net/'>post-expirator pluggin</a> </div>";
         }
 
-        if( !is_plugin_active( 'js_composer/js_composer.php' )) {
+        if( !is_plugin_active( 'js_composer/js_composer.php' ) && !is_plugin_active( 'js_composer_salient/js_composer.php' ) ) {
             echo "<div class='p_suggestion sug_2' > Idem-pop-up is usefull with <a href='https://vc.wpbakery.com/'> visual composer pluggin </a> </div>";
         }
         
