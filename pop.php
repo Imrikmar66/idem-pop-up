@@ -3,7 +3,7 @@
 * Plugin Name: Idem Pop Up
 * Plugin URI: https://github.com/Imrikmar66/idem-pop-up
 * Description: A programmable pop up pluggin
-* Version: 1.2
+* Version: 1.3
 * Author: Pierre MAR
 * Author URI: https://github.com/Imrikmar66
 **/
