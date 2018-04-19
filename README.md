@@ -36,7 +36,9 @@ You can create pop ups from administration menu, from the following button :
 ### Timed pop up
 You can set the pop up's start date with the default wordpress page's planning :
 ![planning](http://s729847750.onlinehome.fr/sites/vitrine/wp-content/plugins/idem-pop-up/docs/popup-6.jpg)
+
 The default pop up will be used on page if selected pop up is planning but not published
+
 #### Recommandation
 You can use the recommanded ***Post Expirator*** plugin for pop up expiration !
 The default pop up will be used on page if selected pop up is expired
@@ -53,6 +55,7 @@ When the pop up is created, you can add it to a page. You should see the followi
 - You can choose apparition mode : '**Auto**' is triggered on page load, and '**Manual**' is triggered on click on the specified css class in '**Action call button class**' input
 
 ### Other settings
-You can disable pop ups in mobile mode. In administration panel, search for the following button: 
+You can disable pop ups in mobile mode. In administration panel, search for the following button:
 ![settings](http://s729847750.onlinehome.fr/sites/vitrine/wp-content/plugins/idem-pop-up/docs/popup-2.jpg)
+
 Then check or uncheck '**Disable pop up in responsive mode**'
