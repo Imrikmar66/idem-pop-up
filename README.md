@@ -56,6 +56,7 @@ When the pop up is created, you can add it to a page. You should see the followi
 
 ### Other settings
 You can disable pop ups in mobile mode. In administration panel, search for the following button:
+
 ![settings](http://s729847750.onlinehome.fr/sites/vitrine/wp-content/plugins/idem-pop-up/docs/popup-2.jpg)
 
 Then check or uncheck '**Disable pop up in responsive mode**'
